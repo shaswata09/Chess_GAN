@@ -121,7 +121,7 @@ def discriminator():
     x = BatchNormalization()(x)
     x = LeakyReLU()(x)
     
-    x = Flatten()(c)
+    x = Flatten()(x)
     x = Dense(64)(x)
     x = Dense(1)(x)
     
