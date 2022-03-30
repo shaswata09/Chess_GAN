@@ -33,7 +33,7 @@ import chess.engine
 
 
 
-# Selects a random from from a list of possilbe moves
+# Selects a random from a list of possilbe moves
 def select_move_random(board):
     
     mvs = board.generate_legal_moves()
